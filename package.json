@@ -1,0 +1,35 @@
+{
+  "name": "@liqd-js/ds-heap",
+  "description": "Heap Data Structure",
+  "version": "1.0.1",
+  "author": "radixxko",
+  "license": "MIT",
+  "main": "lib/heap.js",
+  "homepage" : "https://liqd-js.com/lib/ds-heap",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "nyc mocha",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/liqd-js/ds-heap.git"
+  },
+  "keywords": [
+    "heap",
+    "data",
+    "structure",
+    "algorithm",
+    "liqd-js",
+    "liqd-ds",
+    "liqd"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^3.0.4",
+    "mocha": "^5.0.4",
+    "nyc": "^14.1.1"
+  }
+}
